@@ -31,7 +31,7 @@
 header,footer{
     background-color: #fdbe7b;
     color: white;
-    text-align: center;
+    text-align: left;
 }
 
 nav{
@@ -71,6 +71,10 @@ main{
 @media screen and (max-width:1000px){
     #container{
         flex-direction: column;
+    }
+
+    header,footer{
+        text-align: center;
     }
 
     nav{
