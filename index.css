@@ -17,7 +17,8 @@
 }
 
 #headshot{
-    max-width: 50%;
+    display: inline;
+    max-width: 30%;
     padding-left: 0;
 
 }
