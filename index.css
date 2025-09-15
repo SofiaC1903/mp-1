@@ -6,7 +6,7 @@
 #page-wrapper{
     width:80vw;
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
 }
 
 
@@ -19,17 +19,16 @@
 #headshot{
     display: inline;
     max-width: 30%;
-    padding-left: 0;
 
 }
 
 header,footer{
-    background-color: darkseagreen;
+    background-color: #D4CB92;
 
 }
 
 nav{
-    background-color: aliceblue;
+    background-color: #8fb8de;
     width: 30%;
 }
 
@@ -44,12 +43,13 @@ nav ul{
 
 nav a{
     text-decoration: none;
+    width: 100%;
     font-size: calc(2px + 2vw);
-    border: 2px solid navy;
+    border: 8px solid #395c6b;
 }
 
 main{
-    background-color: mintcream;
+    background-color: #e6e1c5;
     height: 100vh;
     width: 70%;
 }
@@ -62,7 +62,6 @@ main{
     }
 
     nav{
-
         width: 100%;
     }
 
