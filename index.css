@@ -25,9 +25,7 @@
 }
 
 #intro{
-    margin-top: 0;
-    margin-right: 80px;
-    text-align: right;
+    text-align: left;
 }
 header,footer{
     background-color: #fdbe7b;
@@ -50,14 +48,10 @@ nav ul{
     padding-left: 0;
     text-align: center;
     text-decoration: none;
-
-    justify-content: space-evenly;
-
 }
 
 nav ul li{
     margin: 10px 10px;
-    padding: 10px;
     color: floralwhite;
 }
 
