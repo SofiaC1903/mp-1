@@ -24,11 +24,13 @@
 
 header,footer{
     background-color: #ffc49b;
+    color: white;
+    text-align: center;
 
 }
 
 nav{
-    background-color: #8fb8de;
+    background-color: #c0d1e3;
     width: 30%;
 }
 
@@ -39,6 +41,8 @@ nav ul{
     flex-direction: column;
     width: 80%;
     margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
 }
 
 nav a{
