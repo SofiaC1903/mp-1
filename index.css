@@ -23,7 +23,7 @@
 }
 
 header,footer{
-    background-color: #D4CB92;
+    background-color: #ffc49b;
 
 }
 
@@ -45,11 +45,11 @@ nav a{
     text-decoration: none;
     width: 100%;
     font-size: calc(2px + 2vw);
-    border: 8px solid #395c6b;
+    border: 4px solid #395c6b;
 }
 
 main{
-    background-color: #e6e1c5;
+    background-color: #ffefd3;
     height: 100vh;
     width: 70%;
 }
