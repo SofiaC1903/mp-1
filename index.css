@@ -25,13 +25,13 @@
 }
 
 #intro{
+    display: flex;
     text-align: left;
 }
 header,footer{
     background-color: #fdbe7b;
     color: white;
     text-align: center;
-
 }
 
 nav{
@@ -52,14 +52,15 @@ nav ul{
 
 nav ul li{
     margin: 10px 10px;
-    color: floralwhite;
 }
 
 nav a{
     text-decoration: none;
+    color: floralwhite;
     width: 100%;
     font-size: calc(2px + 2vw);
     border: 4px solid #395c6b;
+    padding: 10px;
 }
 
 main{
