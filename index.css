@@ -55,6 +55,7 @@ nav ul li{
 }
 
 nav a{
+    display: block;
     text-decoration: none;
     color: floralwhite;
     width: 100%;
