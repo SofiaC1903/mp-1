@@ -19,11 +19,12 @@
 #headshot{
     display: inline;
     max-width: 30%;
-
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
 header,footer{
-    background-color: #ffc49b;
+    background-color: #fdbe7b;
     color: white;
     text-align: center;
 
@@ -39,7 +40,8 @@ nav ul{
     list-style: none;
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 100%;
+    height: 100%;
     margin: 0 auto;
     text-align: center;
     text-decoration: none;
