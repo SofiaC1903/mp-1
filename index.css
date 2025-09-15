@@ -16,11 +16,12 @@
     width: 100%;
 }
 
-#headshot img{
+#headshot{
     display: inline;
     max-width: 30%;
     padding-top: 20px;
     padding-left: 20px;
+    text-align: left;
 }
 
 #intro{
