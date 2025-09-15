@@ -26,7 +26,7 @@
 
 #intro{
     padding-top: 10px;
-    margin-right: 80px;
+    margin-right: 75px;
     text-align: right;
 }
 header,footer{
@@ -50,14 +50,15 @@ nav ul{
     padding-left: 0;
     text-align: center;
     text-decoration: none;
-    color: floralwhite;
+
     justify-content: center;
 
 }
 
 nav ul li{
     margin: 10px 10px;
-
+    padding: 10px;
+    color: floralwhite;
 }
 
 nav a{
