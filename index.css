@@ -16,6 +16,11 @@
     width: 100%;
 }
 
+#headshot{
+    display: block;
+    margin: auto;
+}
+
 header,footer{
     background-color: darkseagreen;
 
