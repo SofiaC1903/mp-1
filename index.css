@@ -16,13 +16,17 @@
     width: 100%;
 }
 
-#headshot{
+#headshot img{
     display: inline;
     max-width: 30%;
     padding-top: 20px;
     padding-left: 20px;
+    text-align: left;
 }
 
+#intro{
+    text-align: right;
+}
 header,footer{
     background-color: #fdbe7b;
     color: white;
@@ -44,6 +48,11 @@ nav ul{
     margin: 0 auto;
     text-align: center;
     text-decoration: none;
+    justify-content: center;
+
+}
+
+nav ul li{
     color: floralwhite;
 
 }
