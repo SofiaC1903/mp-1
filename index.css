@@ -25,6 +25,7 @@ main{
     background-color: #ffefd3;
     height: 100vh;
     width: 70%;
+    font-size: calc(5px + 1vw);
 }
 
 header,footer{
@@ -70,15 +71,20 @@ nav ul{
 
 }
 
+
 nav a{
     display: block;
     text-decoration: none;
     color: floralwhite;
+    height: 14.2vh;
     width: 100%;
     font-size: calc(2px + 2vw);
     border: 4px solid #395c6b;
-    padding: 8% 8%;
-    align-content: stretch;
+    padding: 3%;
+
+
+    align-content: center;
+
 }
 
 
@@ -97,11 +103,11 @@ nav a{
     display: flex;
     text-align: left;
     margin-bottom: 2%;
-    padding:4% 0 0 2%;
+    padding:4% 6% 2% 4%;
 }
 
 .contact{
-    padding-left: 2%;
+    padding-left: 4%;
 }
 /**************************************/
 
@@ -119,6 +125,11 @@ nav a{
     padding-left: 5%;
 }
 
+.schools ul{
+    list-style: none;
+
+}
+
 .schools p{
     padding-right: 2%;
 }
@@ -126,12 +137,14 @@ nav a{
 
 
 /*exp.html elements*/
-.work h3{
-    padding: 2% 2%;
+.work{
+    padding: 4% 2%;
 }
 
 .work ul{
     margin-bottom: 2%;
+    list-style: none;
+
 }
 
 .work p{
@@ -140,28 +153,36 @@ nav a{
 /***********************************/
 
 /*leadership-exp.html elements*/
+.leadership{
+    padding: 4% 4%;
+}
+
 .leadership h3{
     padding: 2% 2%;
 }
 
 .leadership ul{
     margin-bottom: 2%;
+    list-style: none;
+    padding-right: 5%;
 }
 
 .leadership p{
     margin: 1%;
-    padding-left: 5%;
+    padding: 0 5%;
+
 }
 /*********************************/
 
 /*certs.html elements*/
 .certifications{
     padding: 5% 10%;
+    list-style: none;
 }
 
 .certifications img{
     padding-top: 2%;
-    max-width: 20vw;
+    max-width: 30vw;
 }
 /*******************************/
 
@@ -169,6 +190,7 @@ nav a{
 .references{
     padding-top: 2%;
     padding-left: 5%;
+    list-style:none;
 }
 
 .references h3{
@@ -188,14 +210,9 @@ nav a{
     padding: 2% 2%;
 }
 
-#calculator h4{
-    color: floralwhite;
-    font-size: calc(4px + 2vw);
-    text-shadow: -1px -1px 7px #2b4651;
-    padding-top: 0;
-
+.projects h3{
+    padding-bottom: 2%;
 }
-
 #calculator{
     display: flex;
     flex-direction: column;
@@ -215,37 +232,55 @@ nav a{
     background-size: cover;
 }
 
+#calculator h4{
+    color: floralwhite;
+    font-size: calc(2px + 2vw);
+
+    padding-top: 0;
+
+    background-color: #2b4651;
+    border-radius: 10px;
+
+    text-align: center;
+    align-items: center;
+
+    align-content: center;
+
+}
+
 #input{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-    height: 25%;
-    width: 20%;
 }
 
 input{
     margin-top: 10%;
     background-color: #adb7c1;
-
+    height: 30%;
+    width: 30%;
+    padding: 3%;
 }
 
 #calc-buttons{
     align-items: center;
+    justify-content: center;
     display: grid;
 
-    grid-template-columns:auto auto auto;
-    grid-template-rows: auto auto auto;
+    grid-template-columns:40% 40% 40%;
+    grid-template-rows: 40% 40% 40%;
     gap: 5%;
-    padding-bottom: 4%;
+    padding-bottom: 2%;
     height: 35%;
     width: 40%;
+
 }
 
 #calc-buttons button{
     background-color: #244369;
     color: #d5d7d6;
+    font-size: calc(6px + 1vw);
     border-radius: 5px;
     border: solid 2px #3c4961;
 
@@ -253,11 +288,12 @@ input{
 
 #result{
     height:15%;
-    width: 15%;
+    width: 20%;
     background-color: #2b4651;
     border: none;
     border-radius: 15px;
 
+    text-align: center;
     align-items: center;
     justify-content: center;
 
@@ -317,7 +353,7 @@ input{
 
     nav a{
         display: flex;
-        justify-content: space-evenly;
+        height: 100%;
 
     }
 
