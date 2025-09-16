@@ -42,6 +42,10 @@ header,footer{
     padding-left: 10px;
 }
 
+footer{
+    padding: 20px;
+}
+
 nav{
     background-color: #c0d1e3;
     width: 30vw;
