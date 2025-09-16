@@ -35,11 +35,11 @@ header,footer{
 }
 
 header{
-    border-bottom: 1px #395c6b;
+    border-bottom: 3px #395c6b;
 }
 
 footer{
-    border-top: 1px #395c6b;
+    border-top: 3px #395c6b;
 }
 
 nav{
