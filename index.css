@@ -56,10 +56,6 @@ header,footer{
     padding-left: 10px;
 }
 
-header p{
-    font-size: calc(2px + 2vw);
-}
-
 footer{
     padding: 10px;
 }
