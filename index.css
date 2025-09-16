@@ -36,11 +36,19 @@
     padding-left: 20px;
 }
 
+.schools{
+    padding: 20px;
+}
+
 header,footer{
     background-color: #fdbe7b;
     color: white;
     text-align: left;
     padding-left: 10px;
+}
+
+header p{
+    font-size: calc(5px + 2vw);
 }
 
 footer{
