@@ -34,11 +34,11 @@ header,footer{
     text-align: left;
 }
 
-header{
+header p{
     border-bottom: 3px #395c6b;
 }
 
-footer{
+footer p{
     border-top: 3px #395c6b;
 }
 
