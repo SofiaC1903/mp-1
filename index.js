@@ -9,7 +9,7 @@ function doAdd(){
         output.style.color = "red";
     }
 
-    output.innerHTML = String(calc);
+    output.innerHTML = String(Number(calc));
 }
 
 function doSubtract(){
@@ -17,9 +17,10 @@ function doSubtract(){
 
     if (calc< 0){
         output.style.color = "red";
+
     }
 
-    output.innerHTML = String(calc);
+    output.innerHTML = String(Number(calc));
 }
 
 function doMultiply(){
@@ -29,7 +30,7 @@ function doMultiply(){
         output.style.color = "red";
     }
 
-    output.innerHTML = String(calc);
+    output.innerHTML = String(Number(calc));
 }
 
 function doDivide(){
@@ -39,7 +40,7 @@ function doDivide(){
         output.style.color = "red";
     }
 
-    output.innerHTML = String(calc);
+    output.innerHTML = String(Number(calc));
 }
 
 function doPower(){
@@ -53,7 +54,7 @@ function doPower(){
         output.style.color = "red";
     }
 
-    output.innerHTML = String(total);
+    output.innerHTML = String(Number(total));
 }
 
 function doClear(){
