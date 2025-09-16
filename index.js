@@ -29,7 +29,7 @@ function doPower(){
 }
 
 function doClear(){
-    one.innerHTML = "";
-    two.innerHTML = "";
+    one.value = "";
+    two.value = "";
     output.innerHTML = "";
 }
