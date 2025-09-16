@@ -8,6 +8,9 @@ function doAdd(){
     if (calc < 0){
         output.style.color = "red";
     }
+    else{
+        output.style.color = "black";
+    }
 
     output.innerHTML = String(Number(calc));
 }
@@ -17,7 +20,9 @@ function doSubtract(){
 
     if (calc< 0){
         output.style.color = "red";
-
+    }
+    else{
+        output.style.color = "black";
     }
 
     output.innerHTML = String(Number(calc));
@@ -29,6 +34,9 @@ function doMultiply(){
     if (calc < 0){
         output.style.color = "red";
     }
+    else{
+        output.style.color = "black";
+    }
 
     output.innerHTML = String(Number(calc));
 }
@@ -38,6 +46,9 @@ function doDivide(){
 
     if (calc < 0){
         output.style.color = "red";
+    }
+    else{
+        output.style.color = "black";
     }
 
     output.innerHTML = String(Number(calc));
@@ -52,6 +63,9 @@ function doPower(){
 
     if (total < 0){
         output.style.color = "red";
+    }
+    else{
+        output.style.color = "black";
     }
 
     output.innerHTML = String(Number(total));
