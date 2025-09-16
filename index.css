@@ -76,7 +76,7 @@ main{
 #headshot{
     display: inline;
     max-width: 30%;
-    padding: 5% 5%;
+    padding: 5% 0 1% 5%;
     text-align: left;
 }
 
