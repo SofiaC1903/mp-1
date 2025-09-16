@@ -39,15 +39,17 @@
 .schools{
     padding-top: 10px;
     padding-left: 20px;
-    list-style: none;
 }
 
 .work{
     padding-top: 10px;
     padding-left: 20px;
-    list-style: none;
 }
 
+.certifications{
+    padding-top: 10px;
+    padding-left: 20px;
+}
 
 header,footer{
     background-color: #fdbe7b;
