@@ -57,8 +57,14 @@
     padding-left: 20px;
 }
 
-.certification img{
+.certifications img{
     max-width: 20vw;
+}
+
+
+.references{
+    padding-top: 10px;
+    padding-left: 20px;
 }
 
 header,footer{
@@ -74,7 +80,7 @@ footer{
 
 nav{
     background-color: #c0d1e3;
-    width: 30vw;
+    width: 30%;
 }
 
 nav ul{
@@ -103,6 +109,7 @@ main{
     width: 70%;
 }
 
+
 /*Bellow this line is my mobile design*/
 
 @media screen and (max-width:1000px){
@@ -123,6 +130,12 @@ main{
     nav ul{
         flex-direction: row;
         justify-content: space-evenly;
+    }
+
+    nav a{
+        display: flex;
+        justify-content: space-evenly;
+
     }
 
     main{
