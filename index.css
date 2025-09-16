@@ -37,8 +37,11 @@
 }
 
 .schools{
+    padding-top: 10px;
     padding-left: 20px;
+    list-style: none;
 }
+
 
 header,footer{
     background-color: #fdbe7b;
