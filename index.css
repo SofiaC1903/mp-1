@@ -30,6 +30,11 @@
     text-align: left;
     padding: 20px;
 }
+
+.contact{
+    padding: 20px;
+}
+
 header,footer{
     background-color: #fdbe7b;
     color: white;
