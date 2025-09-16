@@ -68,12 +68,12 @@ nav a{
     width: 100%;
     font-size: calc(2px + 2vw);
     border: 4px solid #395c6b;
-    padding: 15px 26px;
+    padding: 16px 26px;
 }
 
 main{
     background-color: #ffefd3;
-    height: 100vh;
+    height: 100%;
     width: 70%;
 }
 
