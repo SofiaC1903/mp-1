@@ -6,7 +6,7 @@ function doAdd(){
     let calc= Number(one.value) + Number(two.value);
 
     if (calc < 0){
-        calc.style.color = "red";
+        output.style.color = "red";
     }
 
     output.innerHTML = String(calc);
@@ -16,7 +16,7 @@ function doSubtract(){
     let calc= Number(one.value) - Number(two.value);
 
     if (calc< 0){
-        calc.style.color = "red";
+        output.style.color = "red";
     }
 
     output.innerHTML = String(calc);
@@ -26,7 +26,7 @@ function doMultiply(){
     let calc = Number(one.value) * Number(two.value)
 
     if (calc < 0){
-        calc.style.color = "red";
+        output.style.color = "red";
     }
 
     output.innerHTML = String(calc);
@@ -36,21 +36,21 @@ function doDivide(){
     let calc = Number(one.value) / Number(two.value)
 
     if (calc < 0){
-        calc.style.color = "red";
+        output.style.color = "red";
     }
 
     output.innerHTML = String(calc);
 }
 
 function doPower(){
-    let total = Number(one.value);
+    let total = 0;
 
-    for (let i = 1; i <= (Number(two.value)-1); i++){
+    for (let i = 1; i <= Number(two.value); i++){
         total *= Number(one.value);
     }
 
     if (total < 0){
-        total.style.color = "red";
+        output.style.color = "red";
     }
 
     output.innerHTML = String(total);
