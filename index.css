@@ -14,6 +14,8 @@
     display: flex;
     flex-direction: row;
     width: 100%;
+    border-top: 3px #395c6b;
+    border-bottom: 3px #395c6b;
 }
 
 #headshot{
@@ -32,14 +34,6 @@ header,footer{
     color: white;
     text-align: left;
     padding-left: 10px;
-}
-
-header p{
-    border-bottom: 3px #395c6b;
-}
-
-footer p{
-    border-top: 3px #395c6b;
 }
 
 nav{
