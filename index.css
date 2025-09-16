@@ -3,6 +3,7 @@
     box-sizing: border-box;
 }
 
+/*GENERAL PAGE LAYOUT*/
 #page-wrapper{
     width:80vw;
     margin: 0 auto;
@@ -17,60 +18,6 @@
     width: 100%;
     border-top: 4px solid #395c6b;
     border-bottom: 4px solid #395c6b;
-}
-
-#headshot{
-    display: inline;
-    max-width: 30%;
-    padding: 5% 5%;
-    text-align: left;
-}
-
-#intro{
-    display: flex;
-    text-align: left;
-    margin: 10%;
-    padding-top: 10%;
-    padding-left: 10%;
-}
-
-.contact{
-    padding-left: 10%;
-}
-
-.schools{
-    padding-top: 10%;
-    padding-left: 15%;
-}
-
-.schools h3{
-    padding: 5% 5%;
-}
-
-.work{
-    padding-top: 5%;
-    padding-left: 10%;
-}
-
-.leadership{
-    padding-top: 5%;
-    padding-left: 10%;
-}
-
-
-.certifications{
-    padding-top: 10%;
-    padding-left: 20%;
-}
-
-.certifications img{
-    max-width: 20vw;
-}
-
-
-.references{
-    padding-top: 10%;
-    padding-left: 20%;
 }
 
 header,footer{
@@ -107,7 +54,7 @@ nav a{
     width: 100%;
     font-size: calc(2px + 2vw);
     border: 4px solid #395c6b;
-    padding: 10% 20%;
+    padding: 5% 10%;
 }
 
 main{
@@ -115,6 +62,77 @@ main{
     height: 100vh;
     width: 70%;
 }
+
+/******************************************/
+
+/*index.html elements*/
+#headshot{
+    display: inline;
+    max-width: 30%;
+    padding: 5% 5%;
+    text-align: left;
+}
+
+#intro{
+    display: flex;
+    text-align: left;
+    margin: 10%;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+.contact{
+    padding-left: 5%;
+}
+/**************************************/
+
+/*edu.html elements*/
+.schools{
+    padding-top: 10%;
+    padding-left: 15%;
+}
+
+.schools h3{
+    padding: 5% 5%;
+}
+/************************************/
+
+
+/*exp.html elements*/
+.work{
+    padding-top: 5%;
+    padding-left: 10%;
+}
+/***********************************/
+
+/*leadership-exp.html elements*/
+.leadership{
+    padding-top: 5%;
+    padding-left: 10%;
+}
+/*********************************/
+
+/*certs.html elements*/
+.certifications{
+    padding-top: 10%;
+    padding-left: 20%;
+}
+
+.certifications img{
+    max-width: 20vw;
+}
+/*******************************/
+
+/*refs.html elements*/
+.references{
+    padding-top: 10%;
+    padding-left: 20%;
+}
+/******************************/
+
+/*proj.html elements*/
+
+/*****************************/
 
 /*Css classes for Google Font Gentium Book Plus*/
 .gentium-book-plus-regular {
