@@ -3,19 +3,43 @@ let two = document.getElementById("two");
 let output = document.getElementById("output");
 
 function doAdd(){
-    output.innerHTML = String(Number(one.value) + Number(two.value));
+    let calc= Number(one.value) + Number(two.value);
+
+    if (calc.value < 0){
+        calc.style.color = "red";
+    }
+
+    output.innerHTML = String(calc.value);
 }
 
 function doSubtract(){
-    output.innerHTML = String(Number(one.value) - Number(two.value));
+    let calc= Number(one.value) - Number(two.value);
+
+    if (calc.value < 0){
+        calc.style.color = "red";
+    }
+
+    output.innerHTML = String(calc.value);
 }
 
 function doMultiply(){
-    output.innerHTML = String(Number(one.value) * Number(two.value));
+    let calc = Number(one.value) * Number(two.value)
+
+    if (calc.value < 0){
+        calc.style.color = "red";
+    }
+
+    output.innerHTML = String(calc.value);
 }
 
 function doDivide(){
-    output.innerHTML = String(Number(one.value) / Number(two.value))
+    let calc = Number(one.value) / Number(two.value)
+
+    if (calc.value < 0){
+        calc.style.color = "red";
+    }
+
+    output.innerHTML = String(calc.value);
 }
 
 function doPower(){
@@ -25,7 +49,11 @@ function doPower(){
         total *= Number(one.value);
     }
 
-    output.innerHTML = String(Number(total));
+    if (total.value < 0){
+        total.style.color = "red";
+    }
+
+    output.innerHTML = String(total.value);
 }
 
 function doClear(){
