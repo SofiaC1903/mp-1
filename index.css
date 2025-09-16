@@ -32,6 +32,7 @@ header,footer{
     background-color: #fdbe7b;
     color: white;
     text-align: left;
+    padding-left: 10px;
 }
 
 header p{
@@ -44,7 +45,7 @@ footer p{
 
 nav{
     background-color: #c0d1e3;
-    width: 30%;
+    width: 30vw;
 }
 
 nav ul{
@@ -52,7 +53,7 @@ nav ul{
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    padding-top: 5px;
+    padding-top: 2px;
     padding-left: 0;
     text-align: center;
     text-decoration: none;
