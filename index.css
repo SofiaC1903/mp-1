@@ -43,6 +43,7 @@
 }
 
 .work{
+    font-size:calc(2px + 2vw);
     padding-top: 10px;
     padding-left: 20px;
     list-style: none;
