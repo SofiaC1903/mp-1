@@ -28,16 +28,22 @@
                     <h3 class="projects">Projects:</h3>
 
                     <div id="calculator">
-                        <label for="one">Introduce a number</label><input id="one">
-                        <label for="two">Introduce a second number</label><input id="two">
-                        <button onclick="doAdd()">+</button>
-                        <button onclick="doSubtract()">-</button>
-                        <button onclick="doMultiply()">*</button>
-                        <button onclick="doDivide()">/</button>
-                        <button onclick="doPower()">**</button>
-                        <button onclick="doClear()">Clear</button>
-
-                        <h2 id="output"></h2>
+                        <h4>Sofia's Calculator</h4>
+                        <div id="input">
+                            <label for="one"></label><input id="one">
+                            <label for="two"></label><input id="two">
+                        </div>
+                        <div id="calc-buttons">
+                            <button onclick="doAdd()">+</button>
+                            <button onclick="doSubtract()">-</button>
+                            <button onclick="doMultiply()">*</button>
+                            <button onclick="doDivide()">/</button>
+                            <button onclick="doPower()">**</button>
+                            <button onclick="doClear()">Clear</button>
+                        </div>
+                        <div id="result">
+                            <h2 id="output"></h2>
+                        </div>
                     </div>
                 </main>
             </div>

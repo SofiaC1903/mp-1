@@ -55,7 +55,7 @@ function doDivide(){
 }
 
 function doPower(){
-    let total = 0;
+    let total = 1;
 
     for (let i = 1; i <= Number(two.value); i++){
         total *= Number(one.value);

@@ -17,6 +17,8 @@
     height: 100vh;
     width: 100%;
     border-top: 4px solid #395c6b;
+    border-bottom: 4px solid #395c6b;
+    overflow: hidden;
 }
 
 main{
@@ -29,20 +31,26 @@ header,footer{
     font-family: "Gentium Book Plus", serif;
     background-color: #fdbe7b;
     color: white;
+
     text-align: left;
+
 }
 
 header h1{
     padding-left: 2%;
+    text-shadow: -1px -1px 7px #f68d08;
 }
 
 header p{
     padding-left: 5%;
+    padding-bottom: 1%;
+    text-shadow: -1px -1px 7px #f68d08;
 }
 
 footer{
     padding: 2% 2%;
-    border-top: 4px solid #395c6b;
+    text-shadow: -1px -1px 7px rgba(246, 141, 8, 0.83);
+
 }
 
 nav{
@@ -144,16 +152,12 @@ nav a{
 /*********************************/
 
 /*certs.html elements*/
-.certifications h3{
-    padding: 2% 2%;
-}
-
-.certifications ul{
-    padding-top: 5%;
-    padding-left: 10%;
+.certifications{
+    padding: 5% 10%;
 }
 
 .certifications img{
+    padding-top: 2%;
     max-width: 20vw;
 }
 /*******************************/
@@ -181,10 +185,65 @@ nav a{
     padding: 2% 2%;
 }
 
+#calculator h4{
+    color: floralwhite;
+    font-size: calc(4px + 2vw);
+    text-shadow: -1px -1px 7px #2b4651;
+    padding-top: 0;
+
+}
+
 #calculator{
-    padding: 5% 5%;
+    display: flex;
+    flex-direction: column;
+
+    padding:0;
+    margin: 0 auto;
+
     align-items: center;
+    justify-content: center;
+
+    height: 40vh;
+    width: 40%;
     border: 4px solid #395c6b;
+    border-radius: 15px;
+
+    background-image: url("./src/calc-bckground.jpeg");") ;
+    background-size: cover;
+}
+
+#input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 35%;
+    width: 25px;
+}
+
+#one, #two{
+    margin-top: 10%;
+    background-color: #adb7c1;
+
+
+
+
+}
+
+#calc-buttons{
+    align-items: center;
+    display: grid;
+
+    grid-template-columns:auto auto auto;
+    grid-template-rows: auto auto auto;
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#result{
+    background-color: #adb7c1;
 }
 /*****************************/
 
