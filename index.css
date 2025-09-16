@@ -46,9 +46,19 @@
     padding-left: 20px;
 }
 
+.leadership{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+
 .certifications{
     padding-top: 10px;
     padding-left: 20px;
+}
+
+.certification img{
+    max-width: 20vw;
 }
 
 header,footer{
