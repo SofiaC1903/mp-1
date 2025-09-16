@@ -25,11 +25,18 @@ header,footer{
     background-color: #fdbe7b;
     color: white;
     text-align: left;
+}
+
+header h1{
+    padding-left: 2%;
+}
+
+header p{
     padding-left: 5%;
 }
 
 footer{
-    padding: 10%;
+    padding: 5% 2%;
 }
 
 nav{
