@@ -5,41 +5,41 @@ let output = document.getElementById("output");
 function doAdd(){
     let calc= Number(one.value) + Number(two.value);
 
-    if (calc.value < 0){
+    if (calc < 0){
         calc.style.color = "red";
     }
 
-    output.innerHTML = String(calc.value);
+    output.innerHTML = String(calc);
 }
 
 function doSubtract(){
     let calc= Number(one.value) - Number(two.value);
 
-    if (calc.value < 0){
+    if (calc< 0){
         calc.style.color = "red";
     }
 
-    output.innerHTML = String(calc.value);
+    output.innerHTML = String(calc);
 }
 
 function doMultiply(){
     let calc = Number(one.value) * Number(two.value)
 
-    if (calc.value < 0){
+    if (calc < 0){
         calc.style.color = "red";
     }
 
-    output.innerHTML = String(calc.value);
+    output.innerHTML = String(calc);
 }
 
 function doDivide(){
     let calc = Number(one.value) / Number(two.value)
 
-    if (calc.value < 0){
+    if (calc < 0){
         calc.style.color = "red";
     }
 
-    output.innerHTML = String(calc.value);
+    output.innerHTML = String(calc);
 }
 
 function doPower(){
@@ -49,11 +49,11 @@ function doPower(){
         total *= Number(one.value);
     }
 
-    if (total.value < 0){
+    if (total < 0){
         total.style.color = "red";
     }
 
-    output.innerHTML = String(total.value);
+    output.innerHTML = String(total);
 }
 
 function doClear(){
